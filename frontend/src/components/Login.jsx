@@ -47,6 +47,9 @@ function Login() {
                         Log in
                     </button>
                 </form>
+                <div>
+                    <h2>Belum Punya Akun? <a className='text-blue-600 border-b-4 border-blue-800' href="/register">Buat Akun Disini</a></h2>
+                </div>
             </div>
         </div>
     );
