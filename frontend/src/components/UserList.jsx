@@ -9,7 +9,6 @@ function UserList({ users }) {
         users.map((user) => (
           <div key={user.id} className="bg-white shadow-md rounded-lg p-4">
             <h2 className="text-xl font-semibold">{user.name}</h2>
-            <p className="text-gray-600">Category: {user.category}</p>
             <p className="text-gray-600">
               Address: {user.alamat || 'Not specified'}
             </p>
